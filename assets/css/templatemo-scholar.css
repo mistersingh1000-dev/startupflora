@@ -1,11 +1,3 @@
-/* 
-
-TemplateMo 586 Scholar
-
-https://templatemo.com/tm-586-scholar
-
-*/
-
 /* ---------------------------------------------
 Table of contents
 ------------------------------------------------
@@ -1066,6 +1058,14 @@ Courses Style
   transition: all .3s;
 }
 
+.events_item .down-content p {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #4a4a4a;
+}
+
 .events_item:hover .down-content h4 {
   color: #7a6ad8;
 }
@@ -1388,6 +1388,13 @@ Events Style
   font-size: 16px;
   color: #7a6ad8;
   font-weight: 600;
+}
+
+.events .item .club-copy {
+  margin: 18px 70px 0 0;
+  color: #4a4a4a;
+  font-size: 15px;
+  line-height: 1.7;
 }
 
 .events .item a {
@@ -1857,6 +1864,9 @@ body {
   }
   .events .item ul li:last-child {
     text-align: right;
+  }
+  .events .item .club-copy {
+    margin-right: 0;
   }
   .events .item a {
     bottom: 150px;
